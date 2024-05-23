@@ -101,7 +101,7 @@ function displayProject(project) {
 function addComment(founderKey) {
     const newComment = document.getElementById('new_comment').value;
     console.log(`New comment for ${founderKey}: ${newComment}`);
-    // اینجا باید کد لازم برای ارسال کامنت به سرور یا رله Nostr را اضافه کنید
+    // TODO
 }
 
 function getPublicKey() {
