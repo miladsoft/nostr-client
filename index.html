@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nostr Client</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://bitcoincore.tech/apps/bitcoinjs-ui/lib/bitcoinjs-lib.js"></script>
+  <script src="https://bundle.run/noble-secp256k1@1.2.14"></script>
+  <script src="https://bundle.run/browserify-cipher@1.0.1"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Nostr Client</h1>
+    <form id="generateForm" onsubmit="return false">
+      <button type="submit" class="speak-button">Generate</button>
+      <p>or input public/private keys:</p>
+      <div class="text-box">
+        <textarea id="public_key" placeholder="Public key" rows="2"></textarea>
+      </div>
+      <div class="text-box">
+        <textarea id="private_key" placeholder="Private key" rows="2"></textarea>
+      </div>
+    </form>
+    
+    <div class="form-section">
+      <label>Input a relay url (choose from the <a href="https://nostr.watch" target="_blank">Nostr Relays</a>):</label>
+      <form id="connectForm" onsubmit="return false">
+        <div class="text-box">
+          <input type="text" id="relay_url" value="wss://relay.angor.io" placeholder="Relay Url">
+        </div>
+        <div class="button-container">
+          <button id="connectButton" type="submit" class="speak-button">Connect</button>
+          <button id="disconnectButton" hidden type="button" class="speak-button" onclick="disconnect()">Disconnect</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="form-section">
+      <label>Input a message:</label>
+      <form id="sendForm" onsubmit="return false">
+        <div class="text-box">
+          <textarea id="public_key_destination" placeholder="Input a destination public key for direct message or leave empty for public message" rows="2"></textarea>
+        </div>
+        <div class="text-box">
+          <textarea id="message" placeholder="Message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="speak-button">Send</button>
+      </form>
+    </div>
+    
+    <div class="table-container">
+      <table id="messages"></table>
+    </div>
+  </div>
+  
+  <div class="container mt-10">
+    <h2>Search Public Key</h2>
+    <div class="text-box">
+      <input type="text" id="search_pubkey" placeholder="Search public key">
+    </div>
+    <button onclick="searchPubKey()" class="speak-button">Search</button>
+    <div id="search_results" class="search-results mt-10"></div>
+  </div>
+  
+  <div class="container mt-10">
+    <h2>Project List</h2>
+    <div class="text-box">
+      <input type="text" id="search_project" oninput="searchProjects()" placeholder="Search projects">
+    </div>
+    <div id="project_results" class="project-results"></div>
+  </div>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>

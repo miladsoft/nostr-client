@@ -1,0 +1,44 @@
+[
+  {
+    "founderKey": "0381c5802ab7d2853ca3d56f4e6d641fe6716a7b0cc92c25960d032935de36cad8",
+    "nostrPubKey": "e94fddcb0ad597bc5fe0f659afb13a273a791988b63bfaedf171d0c00c60d169",
+    "projectIdentifier": "angor1qxtmyz35ekvgywdcqjp6wa460d2peyqljzhmse8",
+    "createdOnBlock": 323629,
+    "trxId": "732a4c9421d71f1be2a4c635ce1412ace28227c8aaca0abd8d938933d65a4385"
+  },
+  {
+    "founderKey": "02a3d0faa1765f7a661ccc663accb0de62fb36feeb7b0fdfee478e47974cdfc084",
+    "nostrPubKey": "ac88bc163ea6481e823e8e3440a7aa5e610c388edb3a1b78e1b1d66fff2ac899",
+    "projectIdentifier": "angor1q7ms50ms3gu3x3ljn2g40p82neeudw8n0x522zc",
+    "createdOnBlock": 323637,
+    "trxId": "d95a2d5760bc7aa9e563a539f704079bfc1bdc8ff549df61fe14dc99a9b4fa22"
+  },
+  {
+    "founderKey": "029f00f93584c741a935b6368cf0fc38d54d5f047dcd17e3aa1290168765281075",
+    "nostrPubKey": "0e1b00930ab70aae1b34d42824368a221e24afb6325d48d3a8794a675ca9262d",
+    "projectIdentifier": "angor1qujaqgrztuamqnc6js3ep5myzjsh4qj83k9sr89",
+    "createdOnBlock": 323641,
+    "trxId": "fec34d73c425369e0cc44f3bb55d75667e41e4ac3acd7943f560479bb5bbf00b"
+  },
+  {
+    "founderKey": "0354b02e6ff0ab8739b9ae45096eed9c3dc9872108d224fbd5b40b73685b8fe191",
+    "nostrPubKey": "1657c2c26bef1f13704613519f3634350c1d8e4dba7f47a31a0438c413decaa9",
+    "projectIdentifier": "angor1q8tur6n082gxvcyg6ylvjx3nxugjtzm2wcx6y9w",
+    "createdOnBlock": 323666,
+    "trxId": "02c2028145e35ef43e06f5cbca481d2c1366bdb0bf1ee4989ebd67160d3aab84"
+  },
+  {
+    "founderKey": "02e9d8732f4b77b9f73eb0954c051cfa8e60e96564710208e8851465c258000e33",
+    "nostrPubKey": "8c8bd528eb57a0e18aa8c29bbbf87635f90930858b11e274bb970a56422c005e",
+    "projectIdentifier": "angor1qspuxfpgf8395gyxjtxswwevxx6xk0nm3ujdr3t",
+    "createdOnBlock": 323670,
+    "trxId": "b454f81a9c3e22ce62c3a2c68e4004180939d79b52d3118ebc1af206e071017a"
+  },
+  {
+    "founderKey": "02b86037b292d0eaa9ffef596124f205d6f9204ea365c1ee6229d6b98f68f10962",
+    "nostrPubKey": "c11febb4c4b3140eda2216da88a45fd0bd0d0b5490ece7a7bdd85e2a0716e6a8",
+    "projectIdentifier": "angor1qu069rzw4k3t4xpcv0vv2pa9a7dexj98emneuks",
+    "createdOnBlock": 323674,
+    "trxId": "d568ca5a6c4d9a4fec79bf91749fbac6592341009cf50c9a30e044ea57c30ece"
+  }
+]
