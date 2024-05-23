@@ -78,9 +78,7 @@ function displayProject(project) {
         <img class="profile-picture" src="${project.metadata.picture}" alt="Profile Picture">
         <div class="profile-details">
           <h1>${project.metadata.name}</h1>
-          <p>${project.metadata.bio}</p>
-          <p><strong>Founder Key:</strong> ${project.founderKey}</p>
-          <p><strong>Created On Block:</strong> ${project.createdOnBlock}</p>
+          <p>${project.metadata.about}</p>
         </div>
       </div>
       <div class="comments-section">
@@ -101,7 +99,7 @@ function displayProject(project) {
 function addComment(founderKey) {
     const newComment = document.getElementById('new_comment').value;
     console.log(`New comment for ${founderKey}: ${newComment}`);
-    // TODO
+// TODO
 }
 
 function getPublicKey() {
